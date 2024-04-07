@@ -6,6 +6,7 @@ from langchain_community.llms.oci_generative_ai import OCIGenAI
 from langchain.schema.runnable import RunnablePassthrough
 from langchain.schema.output_parser import StrOutputParser
 from retriever.oracle_retriever import OracleRetriever
+#from retriever import OracleRetriever
 
 load_dotenv()
 COMPARTMENT_ID = getenv("COMPARTMENT_ID")
